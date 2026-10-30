@@ -7,6 +7,8 @@ Design the instruction field decoder. It splits a 32-bit instruction into its fi
 ```SystemVerilog
 `timescale 1ns / 1ps
 
+`timescale 1ns / 1ps
+
 module decoder(
     input  logic [31:0] instruction,
     output logic [4:0]  rs1,
